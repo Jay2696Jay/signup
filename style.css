@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(back4.jpeg);
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.don{
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+    font-size: 1.1rem;
+    word-spacing: 4px;
+    color: rgb(143, 142, 142);
+    font-family: sans-serif;
+}
+.sign a{
+    color: rgb(82, 156, 252);
+}
+
+
+.com{
+    width: 65%;
+    background-color: rgb(249, 252, 255);
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-left: 30px; 
+    padding-right: 30px;
+    margin-top: 60px ;
+}
+
+
+.all{
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: sans-serif;
+}
+
+.gog{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid  rgb(245, 245, 254);
+    border-radius: 3px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.wit a{
+    color: rgb(82, 156, 252);
+    text-decoration: none;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(143, 142, 142);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+.ii{
+    border: 1px solid rgb(220, 220, 220);
+    margin-top: 10px;
+    width: 150px;
+}
+
+.user{
+    color: rgb(143, 142, 142);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.user p{
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding-bottom: 10px;
+    border: 2px solid rgb(245, 245, 254);
+    border-radius: 3px;
+}
+
+.pass{
+    width: 80%;
+    margin: auto;
+    color: rgb(143, 142, 142);
+}
+
+.pash{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.show{
+    color: rgb(82, 156, 252);
+}
+
+
+.forg{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+.last{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.last button{
+    width: 100%;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    color: white;
+    background-color: rgb(56, 142, 255);
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsiveness */
+
+@media (max-width:768px){
+
+    .com{
+        width: 90%;
+        margin-top: 15%;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    .don{
+        font-size: 15px;
+    }
+
+    .all{
+        width: 90%;
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .ii{
+        width: 30px;
+    }
+
+    .last button{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:414px) {
+    .ii {
+            display: none;
+        }
+
+}
+
+
+
+@media (max-width:1200px) and (min-width:768px){
+
+    .ii{
+        width: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
